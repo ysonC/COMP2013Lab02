@@ -8,8 +8,6 @@ public class Zoo {
     public static int numZoos;
     private int zooID;
     private ArrayList<Compound> compounds;
-    private ArrayList<Animal> animals;
-
 
 
     public Zoo(){
@@ -24,19 +22,15 @@ public class Zoo {
         this.zooID = numZoos;
         compounds = new ArrayList<Compound>();
         for(int i = 0; i < numCompounds; i++){
-            addCompound(new Compound());
+            addCompound(new Compound(location));
         }
-        for(int i = 0; i < 10; i++){
-            addAnimal(new Animal());
-        }
-    }
-
-    private void addAnimal(Animal animal) {
-        this.animals.add(animal);
     }
 
     private void addCompound(Compound compound) {
         this.compounds.add(compound); // add "compound" to the array(compounds)
+    }
+    public Compound getCompound(int index) {
+        return compounds.get(index);
     }
 
 
@@ -60,7 +54,6 @@ public class Zoo {
         this.numCompounds++;
     }
     public int getNumzoo(){return numZoos;}
-
     public void printInfo(){
         System.out.println("ID : " + this.zooID + " Location : " + this.location + " Compounds : " + this.numCompounds);
     }
