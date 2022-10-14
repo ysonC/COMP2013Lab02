@@ -24,6 +24,7 @@ public class ZooApp {
         paris.printInfo();
         beeston.printInfo();
         System.out.println("Number of Zoo:" + Zoo.numZoos);
-        System.out.println(sue.getClass().getSimpleName() + " : " + sue.getEmployeeName()+" : " + sue.calcChristmasBonus());
+        System.out.println(sue.getClass().getSimpleName() + " : " + sue.getEmployeeName()+" : $" + sue.calcChristmasBonus());
+        System.out.println(bob.getClass().getSimpleName() + " : " + bob.getEmployeeName()+" : $" + bob.calcChristmasBonus());
     }
 }

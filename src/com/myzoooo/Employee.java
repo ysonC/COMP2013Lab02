@@ -2,11 +2,11 @@ package com.myzoooo;
 
 public abstract class Employee implements Employable{
     private String name;
-    public Employee(){
+    private int salary;
 
-    }
     public Employee(String name){
         setEmployeeName(name);
+        setSalary(1000);
     }
 
     @Override
@@ -26,16 +26,16 @@ public abstract class Employee implements Employable{
 
     @Override
     public String getEmployeeName() {
-        return null;
+        return name;
     }
 
     @Override
     public int getSalary() {
-        return 0;
+        return salary;
     }
 
     @Override
     public void setSalary(int salary) {
-
+        this.salary = salary;
     }
 }

@@ -2,12 +2,12 @@ package com.myzoooo;
 
 public class ZooKeeper extends Employee{
     public ZooKeeper(String name) {
-        super();
+        super(name);
     }
 
     @Override
     public int calcChristmasBonus() {
-        double bonus = getSalary() * 0.05 + 100;
-        return 0;
+        return (int) (getSalary() * 0.05 + 100);
+
     }
 }
