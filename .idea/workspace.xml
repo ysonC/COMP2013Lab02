@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82adf36c-6a67-4668-bead-cbab9daedf14" name="Changes" comment="upload to git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/ZooApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/ZooApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/ZooCorp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/ZooCorp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/ZooKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/myzoooo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myzoooo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/wyson/Desktop/ZooProjectStages/ZooProjectStage1",
+    "last_opened_file_path": "/Users/w.cheng/Desktop/COMP2013_IntelliJ/COMP2013Lab02",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>

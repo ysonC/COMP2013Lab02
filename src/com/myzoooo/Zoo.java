@@ -7,7 +7,7 @@ public class Zoo {
     private int numCompounds;
     public static int numZoos;
     private int zooID;
-    private ArrayList<Compound> compounds;
+    private ArrayList<Compound> compounds; //test
 
 
     public Zoo(){
